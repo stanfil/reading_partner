@@ -1,1 +1,0 @@
-<view class="main"><view class="timer"><view class="timer-se _p"><text>{{$root.m0}}</text><label class="_span">~</label><text>{{$root.m1}}</text></view><text>{{"本次时长："+$root.g0+"小时"}}</text><text>{{"总读书时长："+$root.g1+"小时"}}</text><button tap="{{tapTimer}}">{{timer.status===0?"start":"end"}}</button></view></view>
